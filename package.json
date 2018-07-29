@@ -1,0 +1,36 @@
+{
+  "name": "chitterjs",
+  "version": "1.0.0",
+  "description": "This is my response to Maker Academy's Week 7 Challenge. Our task is to build a front-end single-page-app to interface with this API.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YvCodeHong/Chitter-API-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YvCodeHong/Chitter-API-Frontend/issues"
+  },
+  "homepage": "https://github.com/YvCodeHong/Chitter-API-Frontend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.3",
+    "vanilla-router": "^1.2.7"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
